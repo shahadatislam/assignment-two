@@ -1,4 +1,6 @@
-/* Common styles */
+/*-----------------------
+     Common styles
+ ---------------------- */
 
 body {
     background: #FFFFFF;
@@ -35,7 +37,9 @@ main {
 }
 
 
-/* header styles */
+/*--------------------------
+     header styles
+-------------------------- */
 .header {
     background-color: rgba(255, 144, 14, 0.1);
     display: flex;
@@ -61,7 +65,9 @@ nav li {
     font-size: 18px;
 }
 
-/* banner styles */
+/* -------------------------
+        banner styles 
+---------------------------*/
 .banner-info {
     text-align: center;
     margin: 100px 80px 50px 100px;
@@ -78,7 +84,9 @@ nav li {
     margin-bottom: 45px;
 }
 
-/* Quick list section Styles */
+/*----------------------------
+ Quick list section Styles
+ -----------------------------*/
 .quick-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -87,13 +95,23 @@ nav li {
 
 }
 
+#quick-list-title {
+    color: #727272;
+}
+
+#quick-list-features-title {
+    color: #FF900E;
+}
+
 .quick-list-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
 
-/* Features Section Styles */
+/*--------------------------------
+     Features Section Styles
+----------------------------------*/
 .features {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -130,7 +148,9 @@ nav li {
     font-size: 20px;
 }
 
-/* Facts section Styls */
+/*------------------------------
+     Facts section Styls 
+--------------------------------*/
 .facts-logo {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -145,7 +165,9 @@ nav li {
     padding: 20px;
 }
 
-/* Sponsors Section Styles */
+/*---------------------------------
+     Sponsors Section Styles 
+----------------------------------*/
 .sponsors {
     margin-top: 100px;
     margin-bottom: 50px;
@@ -160,9 +182,12 @@ nav li {
     grid-template-columns: repeat(5, 1fr);
     grid-column-gap: 55px;
     margin-top: 50px;
+    mix-blend-mode: luminosity;
 }
 
-/* Footer styles */
+/*-----------------------------
+        Footer styles 
+-------------------------------*/
 footer {
     display: flex;
     flex-direction: column;
@@ -177,7 +202,11 @@ footer {
     border-radius: 8px;
 }
 
-/* Media quarries */
+/*----------------------------
+       Media quarries 
+------------------------------*/
+/* -----Mobile Device-------- */
+
 @media only screen and (max-width:668px) {
 
     .container,
